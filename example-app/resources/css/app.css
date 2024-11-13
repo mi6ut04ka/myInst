@@ -1,0 +1,16 @@
+.comment-from textarea {
+    max-height: 100px; /* Максимальная высота текстового поля */
+    min-height: 38px;  /* Минимальная высота текстового поля */
+    overflow-y: auto;  /* Вертикальная прокрутка, если текст превышает высоту */
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+}
+
+.send-button[disabled] {
+    opacity: 0.5;
+}
+
+.emoji-button {
+    font-size: 20px;
+}
